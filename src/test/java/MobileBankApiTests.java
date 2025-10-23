@@ -17,7 +17,7 @@ public class MobileBankApiTests {
 // Проверки
                 .then()
                 .statusCode(200)
-                .body("data",  equalTo("my account"))
+                .body("data",  equalTo("current account"))
         ;
     }
 }
